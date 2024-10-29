@@ -91,5 +91,6 @@ coverage
 *.sw?
 
 *.tsbuildinfo
-front-end/bus-mall/.vscode/*
-front-end/bus-mall/node_modules/
+front-end/zhuanzhu-mall-admin/.vscode/*
+front-end/zhuanzhu-mall-admin/node_modules/
+back-end/zhuanzhu-mall/.idea

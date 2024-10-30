@@ -5,20 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.zhuanzhu</groupId>
-        <artifactId>zhuanzhu-mall</artifactId>
+        <artifactId>zz-mall-framework</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>zz-mall-framework</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>zz-mall-convension</module>
-        <module>zz-mall-redis</module>
-        <module>zz-mall-rocketmq</module>
-        <module>zz-mall-kafka</module>
-        <module>zz-mall-elasticsearch</module>
-        <module>zz-mall-minio</module>
-    </modules>
+    <artifactId>zz-mall-redis</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

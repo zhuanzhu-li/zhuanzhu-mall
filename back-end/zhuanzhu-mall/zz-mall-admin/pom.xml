@@ -3,22 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.zhuanzhu</groupId>
+        <artifactId>zhuanzhu-mall</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>com.zhuanzhu</groupId>
-    <artifactId>zhuanzhu-mall</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>zz-mall-framework</module>
-        <module>zz-mall-common</module>
-        <module>zz-mall-gateway</module>
-        <module>zz-mall-admin</module>
-        <module>zz-mall-user</module>
-        <module>zz-mall-shops</module>
-        <module>zz-mall-product</module>
-        <module>zz-mall-order</module>
-        <module>zz-mall-pay</module>
-    </modules>
+    <artifactId>zz-mall-admin</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
